@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Carpentry: Open and Reproducible Research with R on Data Carpentry: Open and Reproducible Science with R (UseR!2017)</title>
-    <link>https://fmichonneau.github.io/2017-user-tutorial/proposal/index.xml</link>
+    <link>https://fmichonneau.github.io/2017-useR-tutorial/proposal/index.xml</link>
     <description>Recent content in Data Carpentry: Open and Reproducible Research with R on Data Carpentry: Open and Reproducible Science with R (UseR!2017)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 15 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://fmichonneau.github.io/2017-user-tutorial/proposal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fmichonneau.github.io/2017-useR-tutorial/proposal/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Data Carpentry: Open and Reproducible Research with R</title>
-      <link>https://fmichonneau.github.io/2017-user-tutorial/proposal/</link>
+      <link>https://fmichonneau.github.io/2017-useR-tutorial/proposal/</link>
       <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://fmichonneau.github.io/2017-user-tutorial/proposal/</guid>
+      <guid>https://fmichonneau.github.io/2017-useR-tutorial/proposal/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;Keywords&lt;/strong&gt;: Reproducible Research, RMarkdown, Open Science, Data Carpentry, Github&lt;/p&gt;
