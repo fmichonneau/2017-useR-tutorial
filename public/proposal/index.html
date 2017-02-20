@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+  
+  
+  
+  
+   <html class="no-js"> 
+
+  <head lang="en-us">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <title>Data Carpentry: Open and Reproducible Research with R - Data Carpentry: Open and Reproducible Science with R (UseR!2017)</title>
+    <meta name="generator" content="Hugo 0.18.1" />
+
+    
+    <link rel="canonical" href="/proposal/">
+    
+
+    <meta property="og:url" content="/proposal/">
+    <meta property="og:title" content="Data Carpentry: Open and Reproducible Science with R (UseR!2017)">
+    <meta property="og:image" content="/images/dc_logo.png">
+    <meta name="apple-mobile-web-app-title" content="Data Carpentry: Open and Reproducible Science with R (UseR!2017)">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon-32x32.png">
+    <link rel="icon" type="image/x-icon" href="/favicon-32x32.png">
+
+    <style>
+      @font-face {
+        font-family: 'Icon';
+        src: url('/fonts/icon.eot');
+        src: url('/fonts/icon.eot')
+               format('embedded-opentype'),
+             url('/fonts/icon.woff')
+               format('woff'),
+             url('/fonts/icon.ttf')
+               format('truetype'),
+             url('/fonts/icon.svg')
+               format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
+    <link rel="stylesheet" href="/stylesheets/application.css">
+    <link rel="stylesheet" href="/stylesheets/temporary.css">
+    <link rel="stylesheet" href="/stylesheets/palettes.css">
+    <link rel="stylesheet" href="/stylesheets/highlight/highlight.css">
+
+    
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,700|Roboto&#43;Mono">
+    <style>
+      body, input {
+        font-family: 'Roboto', Helvetica, Arial, sans-serif;
+      }
+      pre, code {
+        font-family: 'Roboto Mono', 'Courier New', 'Courier', monospace;
+      }
+    </style>
+
+    
+    <script src="/javascripts/modernizr.js"></script>
+
+    
+
+  </head>
+  <body class="palette-primary-teal palette-accent-blue">
+
+
+
+	
+	
+
+
+<div class="backdrop">
+	<div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+	<nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        Data Carpentry: Open and Reproducible Research with R
+      </div>
+    </div>
+
+    
+
+    
+    
+        
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main class="main">
+	<div class="drawer">
+		<nav aria-label="Navigation">
+  <a href="https://github.com/fmichonneau/2017-user-tutorial" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="/images/dc_logo.png">
+        </div>
+      
+      <div class="name">
+        <strong>Data Carpentry: Open and Reproducible Science with R (UseR!2017) </strong>
+        
+          <br>
+          fmichonneau/2017-user-tutorial
+        
+      </div>
+    </div>
+  </a>
+
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-download">
+            <a href="https://github.com/fmichonneau/2017-user-tutorial/archive/master.zip" target="_blank" title="Download" data-action="download">
+              <i class="icon icon-download"></i> Download
+            </a>
+          </li>
+          <li class="repo-stars">
+            <a href="https://github.com/fmichonneau/2017-user-tutorial/stargazers" target="_blank" title="Stargazers" data-action="star">
+              <i class="icon icon-star"></i> Stars
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+
+      <div class="toc">
+        
+        <ul>
+          
+
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Home" href="/">
+	
+	Home
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a class="current" title="Workshop Proposal" href="/proposal/">
+	
+	Workshop Proposal
+</a>
+
+
+<ul id="scrollspy">
+</ul>
+
+
+  
+</li>
+
+
+        </ul>
+        
+
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+	</div>
+
+	<article class="article">
+		<div class="wrapper">
+			<h1>Data Carpentry: Open and Reproducible Research with R </h1>
+
+			
+
+<p><strong>Keywords</strong>: Reproducible Research, RMarkdown, Open Science, Data Carpentry, Github</p>
+
+<h2 id="tutorial-goals">Tutorial goals</h2>
+
+<p>The goal of this tutorial is to teach participants the skills and perspectives
+needed to conduct open research with R, including literate programming and best
+practices in sharing and publishing code and data. We will focus on how to make
+the work navigable, interpretable, and repeatable by others. This tutorial is
+modified from the Data Carpentry &ldquo;Reproducible Research with R&rdquo; workshop, and we
+will focus on an exemplar project to model the workflow of going from code and
+data to a published, archived product.</p>
+
+<h2 id="tutorial-objectives-and-outline">Tutorial objectives and outline</h2>
+
+<p>This tutorial is a module of the Data Carpentry &ldquo;Reproducible Research with R&rdquo;
+workshop, and we will focus on an exemplar project to model the workflow of
+going from code and data to a published product.</p>
+
+<p>The objectives (in bold) and outline for the workshop are:</p>
+
+<ul>
+<li><strong>Review of the basics of working with RMarkdown to generate high quality
+reports:</strong> how to use code chunks, inline code; how to generate figures, how to
+export to HTML, PDF, Word documents; how to use references (bibliography,
+references to figures and tables).</li>
+<li><strong>Understand the benefits of file organization to automate and facilitate report
+creation:</strong> how to organize files for inputs and outputs to use fully automated
+workflow to generate reports.</li>
+<li><strong>Use best practices to modularize code and text for complex reports:</strong> how to
+separate code from text, how to organize code into functions, how to leverage
+package development tools to test and document code.</li>
+<li><strong>Learn to use Git and Github in RStudio:</strong> how to use the RStudio interface with
+GitHub to keep track of changes in the code and collaborate with others.</li>
+<li><strong>Learn best practices for sharing code:</strong> how to write code that can be used
+by other people, how to document dependencies.</li>
+<li><strong>Understand available software licenses and issues around data licensing:</strong>
+describe common open source licenses used for code and data, understand
+differences and implications for code and data reuse.</li>
+<li><strong>Publishing and archive reports and datasets using R packages:</strong> how to use
+platforms for data and code publishing and archiving, how to automate the
+process using R packages.</li>
+<li><strong>Learn about and create an ORCID to track research products:</strong> learn about the
+benefits of using ORCID to identify authors.</li>
+</ul>
+
+<p>Lessons:</p>
+
+<ul>
+<li><a href="http://www.datacarpentry.org/rr-literate-programming/02-literate-programming/">http://www.datacarpentry.org/rr-literate-programming/02-literate-programming/</a></li>
+<li><a href="http://www.datacarpentry.org/rr-literate-programming/03-explore-knitr/">http://www.datacarpentry.org/rr-literate-programming/03-explore-knitr/</a></li>
+<li><a href="http://www.datacarpentry.org/rr-version-control/03-git-in-rstudio/">http://www.datacarpentry.org/rr-version-control/03-git-in-rstudio/</a></li>
+<li><a href="http://www.datacarpentry.org/rr-publication/01-publication/">http://www.datacarpentry.org/rr-publication/01-publication/</a></li>
+</ul>
+
+<h2 id="justification-for-running-the-tutorial-at-user-2017">Justification for running the tutorial at useR! 2017</h2>
+
+<p>As an increasing number of people are using R to conduct research, it is
+possible to share and publish this code and data to enable reproducible research
+and advance research progress. Additionally there is increasing acceptance and
+interest in ‘open’ research practices, where code and data are shared as a part
+of the ongoing or final research product.  In Data Carpentry surveys of the
+skills scientists are looking to learn, people with some R experience are most
+interested in learning how to distribute, share and publish their code and data
+using RMarkdown. In particular, they are interested in learning about literate
+programming, sharing code through github, and publishing code and data in
+repositories like FigShare. These skills and perspectives are necessary for open
+research and are clear next steps in learning for best practices and effective
+research R. We expect that many participants at UseR! will be looking for
+opportunities to learn these skills.</p>
+
+<p>The active learning style of Data Carpentry workshops has been shown to be
+effective in teaching people the skills and perspectives needed to work with
+data. The vast majority (&gt;90%) of participants responding to post-workshop
+surveys say that participating in the workshop was worth their time and led to
+improvements in their data management and data analysis skills. Additionally 94%
+of participants agree or strongly agree that they would recommend a workshop to
+a friend or colleague (reference: [1])</p>
+
+<h2 id="description-of-the-tutorial">Description of the tutorial</h2>
+
+<p>In most domains of research &amp; industry there is an increasing capacity to
+generate data and an increasing knowledge of how to analyze this data using
+programming languages such as R. With this increasing capacity, is the potential
+to more effectively communicate, share and publish both the results of these
+analyses and the complete workflow for open research. However, many people do
+not yet have the skills or know best practices to effectively share and
+disseminate research products.</p>
+
+<p>This tutorial is for people who are looking to move towards open research
+practices and want to learn the next steps in how to structure code and data,
+share these research products and publish this for broader dissemination, reuse
+and attribution.  In this tutorial participants will learn how to generate
+documents with literate programming, share them via github, use appropriate
+licenses, and publish data and code research products. They will learn how to
+write RMarkdown, share code via github, and publish and track data and code
+research products.</p>
+
+<h2 id="pre-requisites">Pre-requisites</h2>
+
+<p>Workshop participants should have a familiarity with working in R.</p>
+
+<h2 id="potential-attendees">Potential attendees</h2>
+
+<p>Many people in academia or in other organizations are being required to, or see
+the value in sharing and publishing their research products and
+process. Potential attendees are people who are conducting work in R and are
+interested in learning how to share and publish their code and data for open and
+reproducible research.</p>
+
+<h2 id="instructor-biograph-y-ies-or-link-to-online-profile-s">Instructor biograph(y/ies) or link to online profile(s)</h2>
+
+<p>Tracy Teal is a co-founder and the Executive Director of Data Carpentry. She has
+taught over 30 workshops teaching people to work more effectively with data and
+helped develop curriculum on Reproducible Research and domain-specific
+curriculum for working with ecology data, genomic data, and geospatial data.</p>
+
+<p>Francois Michonneau is a post-doctoral researcher at the University of Florida
+interested in using and teaching about best practices in Reproducible
+Research. He has taught over 15 workshops and developed a semester-long course
+to help people learn how to use R to work with their data.</p>
+
+<h2 id="references">References</h2>
+
+<p>1 Jordan, Kari. (2016). Data Carpentry Assessment Report: Analysis of
+Post-Workshop Survey Results. Zenodo. doi: <a href="https://doi.org/10.5281/zenodo.165858">10.5281/zenodo.165858</a></p>
+
+
+			<aside class="copyright" role="note">
+				
+				Documentation built with
+				<a href="https://github.com/rstudio/blogdown">Blogdown</a>
+				and 
+				<a href="https://www.gohugo.io" target="_blank">Hugo</a>
+				using the
+				<a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
+			</aside>
+
+			<footer class="footer">
+				
+
+<nav class="pagination" aria-label="Footer">
+  <div class="previous">
+  
+      <a href="/proposal/" title="Data Carpentry: Open and Reproducible Research with R">
+        <span class="direction">
+          Previous
+        </span>
+        <div class="page">
+          <div class="button button-previous" role="button" aria-label="Previous">
+            <i class="icon icon-back"></i>
+          </div>
+          <div class="stretch">
+            <div class="title">
+              Data Carpentry: Open and Reproducible Research with R
+            </div>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+
+  <div class="next">
+  
+      <a href="/" title="Data Carpentry: Open and Reproducible Science with R (UseR!2017)">
+        <span class="direction">
+          Next
+        </span>
+        <div class="page">
+          <div class="stretch">
+            <div class="title">
+              Data Carpentry: Open and Reproducible Science with R (UseR!2017)
+            </div>
+          </div>
+          <div class="button button-next" role="button" aria-label="Next">
+            <i class="icon icon-forward"></i>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+</nav>
+
+
+
+
+
+			</footer>
+		</div>
+	</article>
+
+	<div class="results" role="status" aria-live="polite">
+		<div class="scrollable">
+			<div class="wrapper">
+				<div class="meta"></div>
+				<div class="list"></div>
+			</div>
+		</div>
+	</div>
+</main>
+
+    <script>
+    
+      var base_url = '\/';
+      var repo_id  = 'fmichonneau\/2017-user-tutorial';
+    
+    </script>
+
+    <script src="/javascripts/application.js"></script>
+    
+
+    <script>
+      /* Add headers to scrollspy */
+      var headers   = document.getElementsByTagName("h2");
+      var scrollspy = document.getElementById('scrollspy');
+
+      if(scrollspy) {
+        if(headers.length > 0) {
+          for(var i = 0; i < headers.length; i++) {
+            var li = document.createElement("li");
+            li.setAttribute("class", "anchor");
+
+            var a  = document.createElement("a");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", headers[i].innerHTML);
+            a.innerHTML = headers[i].innerHTML;
+
+            li.appendChild(a)
+            scrollspy.appendChild(li);
+          }
+        } else {
+          scrollspy.parentElement.removeChild(scrollspy)
+        }
+
+
+        /* Add permanent link next to the headers */
+        var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+        for(var i = 0; i < headers.length; i++) {
+            var a = document.createElement("a");
+            a.setAttribute("class", "headerlink");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", "Permanent link")
+            a.innerHTML = "¶";
+            headers[i].appendChild(a);
+        }
+      }
+    </script>
+
+    
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+

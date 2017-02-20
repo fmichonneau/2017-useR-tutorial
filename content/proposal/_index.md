@@ -8,12 +8,7 @@ author: |
 institute:
    - $^1$Whitney Laboratory for Marine Bioscience
    - $^2$Data Carpentry
-output:
-   - html_document
-   - pdf_document
-#bibliography: biblioExample.bib
-nocite: |
-  @ref2, @ref3
+date: 2017-01-15
 ---
 
 **Keywords**: Reproducible Research, RMarkdown, Open Science, Data Carpentry, Github

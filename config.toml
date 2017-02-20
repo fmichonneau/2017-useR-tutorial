@@ -1,0 +1,32 @@
+theme = "hugo-material-docs"
+languageCode = "en-us"
+title = "Data Carpentry: Open and Reproducible Science with R (UseR!2017)"
+baseurl = "http://fmichonneau.github.io/2017-user-tutorial/"
+
+[author]
+    name = "François Michonneau"
+    github = "fmichonneau"
+    twitter = "fmic_"
+
+[params]
+  # Repository
+  provider = "GitHub"
+  repo_url = "https://github.com/fmichonneau/2017-user-tutorial"
+  logo = "images/dc_logo.png"
+  favicon = "favicon-32x32.png"
+
+[params.palette]
+  primary = "teal"
+  accent  = "blue"
+
+
+[[menu.main]]
+	name = "Home"
+	url = "/"
+	weight = 0
+
+[[menu.main]]
+	name   = "Workshop Proposal"
+	url    = "proposal/"
+	weight = 0
+
