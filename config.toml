@@ -1,7 +1,7 @@
 theme = "hugo-material-docs"
 languageCode = "en-us"
 title = "Data Carpentry: Open and Reproducible Science with R (UseR!2017)"
-baseurl = "http://fmichonneau.github.io/2017-user-tutorial/"
+baseurl = "//fmichonneau.github.io/2017-user-tutorial/"
 publishDir = "docs"
 
 [author]
@@ -30,4 +30,3 @@ publishDir = "docs"
 	name   = "Workshop Proposal"
 	url    = "proposal/"
 	weight = 0
-
