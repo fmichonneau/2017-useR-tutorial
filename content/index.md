@@ -9,6 +9,11 @@ Reproducible Research with R" has been accepted as a tutorial
 for [useR!2017](http://www.user2017.brussels/), Brussels. The tutorial session
 will take on July 4th, 2017.
 
+This content of this workshop will be a condensed version of a workshop Data
+Carpentry teaches in 2-day that introduces best practices for Reproducible
+Science with R. This will be an opportunity for you to learn more about this
+topic, and to experience the teaching style of Data Carpentry workshops.
+
 We just received confirmation that it was accepted, if you are interested in
 attending and you'd like us to let you know when you can sign up for it, please
 fill out this form:
