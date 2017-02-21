@@ -7,10 +7,10 @@ date: 2017-02-20
 We are excited to announce that our [workshop proposal](proposal/) "Open and
 Reproducible Research with R" has been accepted as a tutorial
 for [useR!2017](http://www.user2017.brussels/), Brussels. The tutorial session
-will take on July 4th, 2017.
+will take place on July 4th, 2017.
 
-This content of this workshop will be a condensed version of a workshop Data
-Carpentry teaches in 2-day that introduces best practices for Reproducible
+The content of this workshop will be a condensed version of a workshop Data
+Carpentry teaches in 2 days that introduces best practices for Reproducible
 Science with R. This will be an opportunity for you to learn more about this
 topic, and to experience the teaching style of Data Carpentry workshops.
 
