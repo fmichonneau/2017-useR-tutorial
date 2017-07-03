@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Data Carpentry: Open and Reproducible Science with R (UseR!2017)</title>
+    <link>https://fmichonneau.github.io/2017-useR-tutorial/tags/</link>
+    <description>Recent content in Tags on Data Carpentry: Open and Reproducible Science with R (UseR!2017)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://fmichonneau.github.io/2017-useR-tutorial/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
