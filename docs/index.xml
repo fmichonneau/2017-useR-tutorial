@@ -17,8 +17,10 @@
       <pubDate>Tue, 04 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://fmichonneau.github.io/2017-useR-tutorial/</guid>
-      <description>We are excited to announce that our workshop proposal &amp;ldquo;Open and Reproducible Research with R&amp;rdquo; has been accepted as a tutorial for useR!2017, Brussels. The tutorial session will take place on July 4th, 2017.
-The content of this workshop will be a condensed version of a workshop Data Carpentry teaches in 2 days that introduces best practices for Reproducible Science with R. This will be an opportunity for you to learn more about this topic, and to experience the teaching style of Data Carpentry workshops.</description>
+      <description>Tutorial taught by Mine Cetinkaya-Rundel and Colin Rundel
+Assembled by François Michonneau and Hilmar Lapp, using material from the Reproducible Research Curriculum
+ We are excited to announce that our workshop proposal &amp;ldquo;Open and Reproducible Research with R&amp;rdquo; has been accepted as a tutorial for useR!2017, Brussels. The tutorial session will take place on July 4th, 2017.
+The content of this workshop will be a condensed version of a workshop Data Carpentry teaches in 2 days that introduces best practices for Reproducible Science with R.</description>
     </item>
     
     <item>

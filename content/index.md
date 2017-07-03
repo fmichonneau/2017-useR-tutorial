@@ -6,6 +6,11 @@ type: index
 weight: 0
 ---
 
+> Tutorial taught by Mine Cetinkaya-Rundel and Colin Rundel
+>
+> Assembled by François Michonneau and Hilmar Lapp,
+> using material from the [Reproducible Research Curriculum](http://www.datacarpentry.org/rr-workshop)
+
 We are excited to announce that our [workshop proposal](proposal/) "Open and
 Reproducible Research with R" has been accepted as a tutorial
 for [useR!2017](http://www.user2017.brussels/), Brussels. The tutorial session
@@ -46,7 +51,7 @@ You need to setup your working directory such that the Rmd file is at the root o
 ```
 +--- data/
 |    |
-|	 +--- gapminder.csv
+|    +--- gapminder.csv
 |
 +--- rr-demo.Rmd
 ```
