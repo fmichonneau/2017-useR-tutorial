@@ -1,7 +1,9 @@
 ---
 title: "Open and Reproducible Research with R at useR!2017"
 author: François Michonneau
-date: 2017-02-20
+date: 2017-07-04
+type: index
+weight: 0
 ---
 
 We are excited to announce that our [workshop proposal](proposal/) "Open and

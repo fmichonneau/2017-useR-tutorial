@@ -221,6 +221,56 @@
 	<article class="article">
 		<div class="wrapper">
 			
+				<h1>Open and Reproducible Research with R at useR!2017 </h1>
+
+				
+
+<p>We are excited to announce that our <a href="proposal/">workshop proposal</a> &ldquo;Open and
+Reproducible Research with R&rdquo; has been accepted as a tutorial
+for <a href="http://www.user2017.brussels/">useR!2017</a>, Brussels. The tutorial session
+will take place on July 4th, 2017.</p>
+
+<p>The content of this workshop will be a condensed version of a workshop Data
+Carpentry teaches in 2 days that introduces best practices for <a href="http://www.datacarpentry.org/rr-workshop.">Reproducible
+Science with R</a>. This will be an opportunity for you to learn more about this
+topic, and to experience the teaching style of Data Carpentry workshops.</p>
+
+<h2 id="setup">Setup</h2>
+
+<p>Make sure you have installed:</p>
+
+<ul>
+<li><a href="https://cran.r-project.org">R</a></li>
+<li><a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio</a></li>
+</ul>
+
+<p>and then install the <strong><code>tidyverse</code></strong> and <strong><code>rmarkdown</code></strong> packages. From the R terminal:</p>
+
+<pre><code class="language-r">install.packages(c(&quot;tidyverse&quot;, &quot;rmarkdown&quot;))
+</code></pre>
+
+<p>For this workshop, we will use the gapminder dataset. We will provide you with the datasets as needed, but if you wish to explore this dataset further, we encourage you to install Jenny Bryan&rsquo;s package of the same name:</p>
+
+<pre><code class="language-r">install.packages(&quot;gapminder&quot;)
+</code></pre>
+
+<h2 id="rmarkdown-demonstration-file">RMarkdown demonstration file</h2>
+
+<ul>
+<li><a href="https://raw.githubusercontent.com/fmichonneau/2017-useR-reproducibility/master/material/rr-demo.Rmd">rr-demo.Rmd</a></li>
+<li><a href="https://github.com/fmichonneau/2017-useR-reproducibility/raw/master/material/data/gapminder.csv">gapminder.csv</a></li>
+</ul>
+
+<p>You need to setup your working directory such that the Rmd file is at the root of it, and the CSV file is in a <code>data</code> foder:</p>
+
+<pre><code>+--- data/
+|    |
+|	 +--- gapminder.csv
+|
++--- rr-demo.Rmd
+</code></pre>
+
+			
 
 			<aside class="copyright" role="note">
 				
