@@ -23,8 +23,8 @@ publishDir = "docs"
 
 [[menu.main]]
 	name = "Home"
-	url = "/"
-	weight = 0
+	url = ""
+	weight = 10
 
 [[menu.main]]
 	name   = "Workshop Proposal"
